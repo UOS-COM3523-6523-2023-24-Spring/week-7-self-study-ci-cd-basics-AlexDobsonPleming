@@ -25,3 +25,9 @@ This is because the behaviour of `complex_function` is non-deterministic (depend
 
 Such non-deterministic behaviour is not uncommon in real-world software system.
 How can we test such non-deterministic behaviour? Think about this. (No need to implement anything)
+
+Answer - it said to "submit in repository", so this is the same answer as in Blackboard, but submitted "in repository"
+
+If a function returns "random" or non-deterministic results then we can run it many times enough that it forms a predictable "average" of results. i.e. for a coin flip if flipped enough it will eventually give 50/50 true false results (give or take an error margin).
+
+The more we run it the smaller the error margin as we're taking a greater average. That's how we could test non-deterministic behaviour.
