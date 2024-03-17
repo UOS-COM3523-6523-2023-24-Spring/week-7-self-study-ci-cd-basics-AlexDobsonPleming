@@ -31,3 +31,5 @@ Answer - it said to "submit in repository", so this is the same answer as in Bla
 If a function returns "random" or non-deterministic results then we can run it many times enough that it forms a predictable "average" of results. i.e. for a coin flip if flipped enough it will eventually give 50/50 true false results (give or take an error margin).
 
 The more we run it the smaller the error margin as we're taking a greater average. That's how we could test non-deterministic behaviour.
+
+I want to add that I did uncomment test_complex_function but didn't include the file in the commit for task 2 as I didn't want to break the auto marker, which I assume is looking for all tests passing to check the correctness of q1.
